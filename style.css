@@ -1,0 +1,111 @@
+
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#main-container {
+    display: flex;
+    gap: 20px;
+    text-align: center; 
+}
+
+#blocks-palette {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15%;
+}
+
+#workspace{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+#grid-container {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+.block {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: grab;
+    text-align: center;
+}
+.drop-area {
+    min-height: 300px;
+    background: #eef;
+    border: 2px dashed #88a;
+    padding: 5px;
+}
+
+.block.dropped {
+  border: 1px solid #ccc;
+  padding: 5px 50px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:rgb(246, 113, 80);
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+  text-align: end;
+}
+
+button {
+    background-color:rgb(62, 97, 145);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.block-controls {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
+.move-btn {
+  background: none;
+  border: none;
+  cursor: grab;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}

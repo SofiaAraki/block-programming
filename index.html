@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Programação em Blocos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Programação em Blocos</h1>
+    <div id="main-container">
+        <div id="blocks-palette">
+            <h3>Blocos</h3>
+            <div class="block" draggable="true" data-type="up">Acima</div>
+            <div class="block" draggable="true" data-type="down">Abaixo</div>
+            <div class="block" draggable="true" data-type="left">Esquerda</div>
+            <div class="block" draggable="true" data-type="right">Direita</div>
+            <!-- <div class="block" draggable="true" data-type="repeat">Repetir 2x</div> -->
+            <!-- <div class="block" draggable="true" data-type="if">Se Frente Livre</div> -->
+        </div>
+        <div id="workspace">
+            <h3>Montagem</h3>
+            <div id="drop-area" class="drop-area"></div>
+            <button onclick="runProgram()">Executar</button>
+        </div>
+        <div id="grid-container">
+            <h3>Grid</h3>
+            <canvas id="grid" width="400" height="400"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
