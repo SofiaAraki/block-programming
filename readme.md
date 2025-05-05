@@ -31,12 +31,12 @@ Projeto educativo que simula lógica de programação através de blocos de coma
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SofiaAraki/programacao-em-blocos.git 
+   git clone https://github.com/SofiaAraki/block-programming.git 
    
 2. Navegue até a pasta:
 
    ```bash
-   cd programacao-em-blocos 
+   cd block-programming 
    
 3. Abra o arquivo `index.html` em qualquer navegador moderno.
 
